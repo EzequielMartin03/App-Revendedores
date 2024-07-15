@@ -7,5 +7,6 @@ namespace AppRevendedores.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
+        
     }
 }

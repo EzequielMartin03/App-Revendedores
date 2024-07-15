@@ -7,5 +7,9 @@ namespace AppRevendedores.Controllers
     [ApiController]
     public class ResellerController : ControllerBase
     {
+       [HttpGet]
+       public ActionResult Get() {
+            return Ok();
+       }
     }
 }
