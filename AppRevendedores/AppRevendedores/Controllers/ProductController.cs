@@ -1,5 +1,6 @@
 ﻿using AppRevendedores.Dtos;
 using AppRevendedores.Models;
+using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,10 +12,13 @@ namespace AppRevendedores.Controllers
     public class ProductController : ControllerBase
     {
         private Context _context;
+        private IValidator<ProductInsertDto> _ProductInsertValidator;
 
-        public ProductController(Context context)
+        public ProductController(Context context, IValidator<ProductInsertDto> ProductInsertValidator)
         {
             _context = context;
+            _ProductInsertValidator = ProductInsertValidator;
+
         }
 
         [HttpGet]
@@ -37,7 +41,12 @@ namespace AppRevendedores.Controllers
 
         public async Task<ActionResult<ProductInsertDto>> Insert(ProductInsertDto productInsertDto)
         {
+            var validationResult = await _ProductInsertValidator.ValidateAsync(productInsertDto);
 
+            if (!validationResult.IsValid)
+            {
+                return BadRequest(validationResult.Errors);
+            }
             var newProduct = new Product
             {
                 Name = productInsertDto.Name,

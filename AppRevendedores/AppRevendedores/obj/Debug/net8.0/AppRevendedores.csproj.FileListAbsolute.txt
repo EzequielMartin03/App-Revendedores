@@ -136,3 +136,4 @@ C:\Users\Eze Martin\Desktop\APP revendedores\AppRevendedores\AppRevendedores\obj
 C:\Users\Eze Martin\Desktop\APP revendedores\AppRevendedores\AppRevendedores\obj\Debug\net8.0\AppRevendedores.genruntimeconfig.cache
 C:\Users\Eze Martin\Desktop\APP revendedores\AppRevendedores\AppRevendedores\obj\Debug\net8.0\ref\AppRevendedores.dll
 C:\Users\Eze Martin\Desktop\APP revendedores\AppRevendedores\AppRevendedores\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\Eze Martin\Desktop\APP revendedores\AppRevendedores\AppRevendedores\bin\Debug\net8.0\FluentValidation.dll
