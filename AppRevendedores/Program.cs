@@ -1,5 +1,6 @@
 using AppRevendedores.Dtos;
 using AppRevendedores.Models;
+using AppRevendedores.Services;
 using AppRevendedores.Validators;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
@@ -12,6 +13,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddScoped<IProductService,ProductService>();
 
 // Entity Framework
 

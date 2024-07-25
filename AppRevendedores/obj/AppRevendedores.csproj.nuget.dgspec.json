@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eze Martin\\Desktop\\APP revendedores\\AppRevendedores\\AppRevendedores\\AppRevendedores.csproj": {}
+    "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\AppRevendedores.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eze Martin\\Desktop\\APP revendedores\\AppRevendedores\\AppRevendedores\\AppRevendedores.csproj": {
+    "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\AppRevendedores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eze Martin\\Desktop\\APP revendedores\\AppRevendedores\\AppRevendedores\\AppRevendedores.csproj",
+        "projectUniqueName": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\AppRevendedores.csproj",
         "projectName": "AppRevendedores",
-        "projectPath": "C:\\Users\\Eze Martin\\Desktop\\APP revendedores\\AppRevendedores\\AppRevendedores\\AppRevendedores.csproj",
+        "projectPath": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\AppRevendedores.csproj",
         "packagesPath": "C:\\Users\\Eze Martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eze Martin\\Desktop\\APP revendedores\\AppRevendedores\\AppRevendedores\\obj\\",
+        "outputPath": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eze Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,6 +63,10 @@
               "target": "Package",
               "version": "[8.0.7, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -92,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
