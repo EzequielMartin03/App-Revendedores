@@ -14,9 +14,9 @@ namespace AppRevendedores.Controllers
     {
        
         private IValidator<ProductInsertDto> _ProductInsertValidator;
-        private IProductService _ProductService;
+        private ICommonService<ProductDto, ProductUpdateDto, ProductInsertDto> _ProductService;
 
-        public ProductController(Context context, IValidator<ProductInsertDto> ProductInsertValidator,IProductService productService)
+        public ProductController(Context context, IValidator<ProductInsertDto> ProductInsertValidator, [FromKeyedServices("ProductService")]ICommonService<ProductDto, ProductUpdateDto, ProductInsertDto> productService)
         {
             
             _ProductInsertValidator = ProductInsertValidator;

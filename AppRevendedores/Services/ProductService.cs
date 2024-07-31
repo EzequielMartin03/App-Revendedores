@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AppRevendedores.Services
 {
-    public class ProductService : IProductService
+    public class ProductService : ICommonService<ProductDto, ProductUpdateDto, ProductInsertDto>
     {
         private Context _context;
         public ProductService(Context context) {

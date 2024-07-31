@@ -14,7 +14,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IProductService,ProductService>();
+builder.Services.AddKeyedScoped<ICommonService<ProductDto,ProductUpdateDto,ProductInsertDto>,ProductService>("ProductService");
 
 // Entity Framework
 
