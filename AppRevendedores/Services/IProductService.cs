@@ -9,9 +9,9 @@ namespace AppRevendedores.Services
 
         Task<ProductDto> GetById(int id);
 
-        Task<ProductInsertDto> Insert(ProductInsertDto productInsertDto);
+        Task<ProductDto> Insert(ProductInsertDto productInsertDto);
 
-        Task<ProductUpdateDto> Update(ProductInsertDto productInsertDto, int id);
+        Task<ProductUpdateDto> Update(ProductUpdateDto productUpdateDto, int id);
 
         Task<ProductDto> Delete(int id);
     }

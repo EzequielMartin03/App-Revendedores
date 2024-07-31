@@ -14,7 +14,30 @@ namespace AppRevendedores.Services
         }
         public async Task<ProductDto> Delete(int id)
         {
-            throw new NotImplementedException();
+            var Product = await _context.Products.FindAsync(id);
+
+            if (Product == null)
+            {
+                
+
+                var ProductDto = new ProductDto
+                {
+                    CategoryId = Product.CategoryId,
+                    Description = Product.Description,
+                    Price = Product.Price,
+                    ProductId = Product.ProductId
+                };
+
+                _context.Products.Remove(Product);
+                await _context.SaveChangesAsync();
+
+                return ProductDto;
+
+            }
+
+            return null;
+            
+
         }
 
         public async Task<IEnumerable<ProductDto>> Get() =>
@@ -48,14 +71,73 @@ namespace AppRevendedores.Services
             return null;
         }
 
-        public async Task<ProductInsertDto> Insert(ProductInsertDto productInsertDto)
+        public async Task<ProductDto> Insert(ProductInsertDto productInsertDto)
         {
-            throw new NotImplementedException();
+           
+            
+                var newProduct = new Product
+                {
+                    Name = productInsertDto.Name,
+                    Description = productInsertDto.Description,
+                    Price = productInsertDto.Price,
+                    CategoryId = productInsertDto.CategoryId
+
+                };
+                await _context.AddAsync(newProduct);
+                await _context.SaveChangesAsync();
+
+                var ProductDto = new ProductDto
+                {
+
+                    Name= newProduct.Name,
+                    Description= newProduct.Description,
+                    Price= newProduct.Price,
+                    CategoryId = newProduct.CategoryId
+
+
+
+                };
+
+                return ProductDto;
+
+
+            
+
+            
+            
         }
 
-        public async Task<ProductUpdateDto> Update(ProductInsertDto productInsertDto, int id)
+        public async Task<ProductUpdateDto> Update(ProductUpdateDto productUpdateDto, int id)
         {
-            throw new NotImplementedException();
+            var Product = await _context.Products.FindAsync(id);
+
+            if (Product != null)
+            {
+                Product.Name = productUpdateDto.Name;
+                Product.Price = productUpdateDto.Price;
+                Product.Description = productUpdateDto.Description;
+                Product.CategoryId = productUpdateDto.CategoryId;
+
+                await _context.SaveChangesAsync();
+
+                var ProductUpdateDto = new ProductUpdateDto
+                {
+                    ProductId = productUpdateDto.ProductId,
+                    Description = productUpdateDto.Description,
+                    Price = productUpdateDto.Price,
+                    CategoryId = productUpdateDto.CategoryId
+
+
+                };
+
+                return ProductUpdateDto;
+
+               
+            }
+
+            return null;
+
+           
         }
     }
 }
