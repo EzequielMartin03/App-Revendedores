@@ -15,7 +15,14 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+
+
+
 builder.Services.AddKeyedScoped<ICommonService<ProductDto,ProductUpdateDto,ProductInsertDto>,ProductService>("ProductService");
+
+
+builder.Services.AddKeyedScoped<ICommonService<CategoryDto, CategoryDto, CategoryInsertDto>, CategoryService>("CategoryService");
 
 
 // Repository
@@ -32,6 +39,8 @@ builder.Services.AddDbContext<Context>(options => {
 // Validators
 
 builder.Services.AddScoped<IValidator<ProductInsertDto>, ProductInsertValidator>();
+
+
 
 var app = builder.Build();
 

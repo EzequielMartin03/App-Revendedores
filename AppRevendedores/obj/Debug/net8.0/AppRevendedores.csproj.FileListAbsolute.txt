@@ -276,3 +276,5 @@ C:\Users\Eze Martin\Desktop\App-Revendedores\AppRevendedores\obj\Debug\net8.0\re
 C:\Users\Eze Martin\Desktop\App-Revendedores\AppRevendedores\obj\Debug\net8.0\AppRevendedores.pdb
 C:\Users\Eze Martin\Desktop\App-Revendedores\AppRevendedores\obj\Debug\net8.0\AppRevendedores.genruntimeconfig.cache
 C:\Users\Eze Martin\Desktop\App-Revendedores\AppRevendedores\obj\Debug\net8.0\ref\AppRevendedores.dll
+C:\Users\Eze Martin\Desktop\App-Revendedores\AppRevendedores\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Eze Martin\Desktop\App-Revendedores\AppRevendedores\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
