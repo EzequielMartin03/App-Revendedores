@@ -1,5 +1,6 @@
 using AppRevendedores.Dtos;
 using AppRevendedores.Models;
+using AppRevendedores.Repository;
 using AppRevendedores.Services;
 using AppRevendedores.Validators;
 using FluentValidation;
@@ -15,6 +16,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddKeyedScoped<ICommonService<ProductDto,ProductUpdateDto,ProductInsertDto>,ProductService>("ProductService");
+
+
+// Repository
+
+builder.Services.AddScoped<IRepository<Product>,ProductRepository>();
+
 
 // Entity Framework
 

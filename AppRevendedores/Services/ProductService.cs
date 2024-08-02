@@ -1,20 +1,23 @@
 ﻿using AppRevendedores.Dtos;
 using AppRevendedores.Models;
+using AppRevendedores.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace AppRevendedores.Services
 {
     public class ProductService : ICommonService<ProductDto, ProductUpdateDto, ProductInsertDto>
     {
-        private Context _context;
-        public ProductService(Context context) {
+    
+        private IRepository<Product> _repository;
+        public ProductService(IRepository<Product> repository) {
            
-            _context = context;
+            
+            _repository = repository;
            
         }
         public async Task<ProductDto> Delete(int id)
         {
-            var Product = await _context.Products.FindAsync(id);
+            var Product = await _repository.GetByid(id);
 
             if (Product == null)
             {
@@ -28,8 +31,8 @@ namespace AppRevendedores.Services
                     ProductId = Product.ProductId
                 };
 
-                _context.Products.Remove(Product);
-                await _context.SaveChangesAsync();
+                _repository.Delete(Product);
+                await _repository.Save();
 
                 return ProductDto;
 
@@ -40,22 +43,25 @@ namespace AppRevendedores.Services
 
         }
 
-        public async Task<IEnumerable<ProductDto>> Get() =>
-        
-            await _context.Products.Select(b => new ProductDto
+        public async Task<IEnumerable<ProductDto>> Get()
+        {
+            var products = await _repository.Get();
+
+            return products.Select(p => new ProductDto()
             {
-                CategoryId = b.CategoryId,
-                Price = b.Price,
-                ProductId = b.ProductId,
-                Name = b.Name
-            }).ToListAsync();
+                ProductId = p.ProductId,
+                CategoryId = p.CategoryId,
+                Description = p.Description,
+                Price = p.Price
+            });
+        }
 
             
         
 
         public async Task<ProductDto> GetById(int id)
         {
-           var Product = await _context.Products.FindAsync(id);
+           var Product = await _repository.GetByid(id);
 
             if(Product != null)
             {
@@ -83,8 +89,8 @@ namespace AppRevendedores.Services
                     CategoryId = productInsertDto.CategoryId
 
                 };
-                await _context.AddAsync(newProduct);
-                await _context.SaveChangesAsync();
+                await _repository.Insert(newProduct);
+                await _repository.Save();
 
                 var ProductDto = new ProductDto
                 {
@@ -94,23 +100,16 @@ namespace AppRevendedores.Services
                     Price= newProduct.Price,
                     CategoryId = newProduct.CategoryId
 
-
-
                 };
 
                 return ProductDto;
-
-
-            
-
             
             
         }
 
         public async Task<ProductUpdateDto> Update(ProductUpdateDto productUpdateDto, int id)
         {
-            var Product = await _context.Products.FindAsync(id);
-
+            var Product = await _repository.GetByid(id);
             if (Product != null)
             {
                 Product.Name = productUpdateDto.Name;
@@ -118,7 +117,8 @@ namespace AppRevendedores.Services
                 Product.Description = productUpdateDto.Description;
                 Product.CategoryId = productUpdateDto.CategoryId;
 
-                await _context.SaveChangesAsync();
+                _repository.Update(Product);
+                await _repository.Save();
 
                 var ProductUpdateDto = new ProductUpdateDto
                 {
