@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,36 @@
       "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\services\\icommonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\services\\icommonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\validators\\categoryinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\validators\\categoryinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\validators\\productinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\validators\\productinsertvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\dtos\\productinsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\dtos\\productinsertdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|c:\\users\\eze martin\\desktop\\app-revendedores\\apprevendedores\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D83012B-D78B-4CD6-BEB4-6C7A2DBEA59E}|AppRevendedores\\AppRevendedores.csproj|solutionrelative:apprevendedores\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,12 +73,64 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 148,
-          "SelectedChildIndex": 3,
+          "DockedHeight": 236,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "AppRevendedores\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "AppRevendedores\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwB8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T14:42:09.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "AppRevendedores\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "AppRevendedores\\Repository\\CategoryRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwCgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T14:41:39.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoryInsertValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Validators\\CategoryInsertValidator.cs",
+              "RelativeDocumentMoniker": "AppRevendedores\\Validators\\CategoryInsertValidator.cs",
+              "ToolTip": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Validators\\CategoryInsertValidator.cs",
+              "RelativeToolTip": "AppRevendedores\\Validators\\CategoryInsertValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T14:38:54.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductInsertValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Validators\\ProductInsertValidator.cs",
+              "RelativeDocumentMoniker": "AppRevendedores\\Validators\\ProductInsertValidator.cs",
+              "ToolTip": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Validators\\ProductInsertValidator.cs",
+              "RelativeToolTip": "AppRevendedores\\Validators\\ProductInsertValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T14:37:50.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ICommonService.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Services\\ICommonService.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Services\\ICommonService.cs",
@@ -75,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Program.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Program.cs",
@@ -83,12 +151,11 @@
               "RelativeToolTip": "AppRevendedores\\Program.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAiwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T13:08:32.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T13:08:32.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Controllers\\ProductController.cs",
@@ -96,25 +163,24 @@
               "RelativeToolTip": "AppRevendedores\\Controllers\\ProductController.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAIwEcAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T13:02:26.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T13:02:26.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "AppRevendedores\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAUwCMAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T13:02:24.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Dtos\\ProductDto.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Dtos\\ProductDto.cs",
@@ -122,12 +188,11 @@
               "RelativeToolTip": "AppRevendedores\\Dtos\\ProductDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T13:00:02.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T13:00:02.901Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ProductUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Dtos\\ProductUpdateDto.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Dtos\\ProductUpdateDto.cs",
@@ -135,12 +200,11 @@
               "RelativeToolTip": "AppRevendedores\\Dtos\\ProductUpdateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T12:59:54.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T12:59:54.358Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "ProductInsertDto.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Dtos\\ProductInsertDto.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Dtos\\ProductInsertDto.cs",
@@ -148,12 +212,11 @@
               "RelativeToolTip": "AppRevendedores\\Dtos\\ProductInsertDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T12:59:53.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T12:59:53.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "CategoryInsertDto.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Dtos\\CategoryInsertDto.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Dtos\\CategoryInsertDto.cs",
@@ -161,12 +224,11 @@
               "RelativeToolTip": "AppRevendedores\\Dtos\\CategoryInsertDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T12:59:50.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T12:59:50.066Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Dtos\\CategoryDto.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Dtos\\CategoryDto.cs",
@@ -174,44 +236,43 @@
               "RelativeToolTip": "AppRevendedores\\Dtos\\CategoryDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T12:59:27.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-02T12:59:27.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Services\\CategoryService.cs",
               "ToolTip": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Services\\CategoryService.cs",
               "RelativeToolTip": "AppRevendedores\\Services\\CategoryService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAoAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T12:58:42.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Repository\\IRepository.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Repository\\IRepository.cs",
               "ToolTip": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Repository\\IRepository.cs",
               "RelativeToolTip": "AppRevendedores\\Repository\\IRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-02T12:58:02.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "AppRevendedores\\Services\\ProductService.cs",
               "ToolTip": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\Services\\ProductService.cs",
               "RelativeToolTip": "AppRevendedores\\Services\\ProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T21:23:19.75Z",
               "EditorCaption": ""
@@ -219,7 +280,7 @@
           ]
         },
         {
-          "DockedHeight": 101,
+          "DockedHeight": 13,
           "SelectedChildIndex": -1,
           "Children": [
             {

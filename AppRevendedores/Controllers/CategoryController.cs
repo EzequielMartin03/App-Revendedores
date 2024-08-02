@@ -1,4 +1,5 @@
 using AppRevendedores.Dtos;
+using AppRevendedores.Models;
 using AppRevendedores.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,11 +10,11 @@ namespace AppRevendedores.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
-        private ICommonService<CategoryDto, CategoryDto, CategoryInsertDto> _repository;
+        private ICommonService<CategoryDto, CategoryDto, CategoryInsertDto> _CategoryService;
         public CategoryController([FromKeyedServices("ProductService")] ICommonService<CategoryDto, CategoryDto, CategoryInsertDto> CategoryService) {
 
 
-            _repository = CategoryService;
+            _CategoryService = CategoryService;
         }
 
 
@@ -21,7 +22,7 @@ namespace AppRevendedores.Controllers
 
         public async Task<ActionResult<CategoryDto>> Get()
         {
-            var Category = await _repository.Get();
+            var Category = await _CategoryService.Get();
 
             return Ok(Category);
         }
@@ -31,16 +32,16 @@ namespace AppRevendedores.Controllers
 
         public async Task<ActionResult<CategoryDto>> GetById(int id)
         {
-            var CategoryById = await _repository.GetById(id);
+            var CategoryById = await _CategoryService.GetById(id);
 
-            return Ok(CategoryById);
+            return CategoryById == null ? NotFound() : Ok(CategoryById);
         }
 
         [HttpPost]
 
         public async Task<ActionResult<CategoryInsertDto>> Insert(CategoryInsertDto categoryInsertDto)
         {
-            var Category = await _repository.Insert(categoryInsertDto);
+            var Category = await _CategoryService.Insert(categoryInsertDto);
 
             return Ok(Category);
         }
@@ -49,7 +50,7 @@ namespace AppRevendedores.Controllers
 
         public async Task<ActionResult<CategoryDto>> Update(CategoryDto categoryDto, int id)
         {
-            var Category = await _repository.Update(categoryDto,id);
+            var Category = await _CategoryService.Update(categoryDto,id);
 
             return Category == null ? NotFound() : Ok(Category);
         }
@@ -57,7 +58,7 @@ namespace AppRevendedores.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult<CategoryDto>> Delete( int id)
         {
-            var Category = await _repository.Delete(id);
+            var Category = await _CategoryService.Delete(id);
 
             return Category == null ? NotFound() : Ok(Category);
         }
