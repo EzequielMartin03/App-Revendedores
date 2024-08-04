@@ -60,7 +60,7 @@ namespace AppRevendedores.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult<ProductUpdateDto>> Update(ProductUpdateDto productUpdateDto,int id)
         {
-            var productUpdated = _ProductService.Update(productUpdateDto,id);
+            var productUpdated = await _ProductService.Update(productUpdateDto,id);
            if ( productUpdated != null) {
             
                 return  Ok(productUpdated);

@@ -29,6 +29,8 @@ builder.Services.AddKeyedScoped<ICommonService<CategoryDto, CategoryDto, Categor
 
 builder.Services.AddScoped<IRepository<Product>,ProductRepository>();
 
+builder.Services.AddScoped<IRepository<Category>, CategoryRepository>();
+
 
 // Entity Framework
 

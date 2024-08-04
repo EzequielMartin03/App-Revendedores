@@ -11,7 +11,7 @@ namespace AppRevendedores.Controllers
     public class CategoryController : ControllerBase
     {
         private ICommonService<CategoryDto, CategoryDto, CategoryInsertDto> _CategoryService;
-        public CategoryController([FromKeyedServices("ProductService")] ICommonService<CategoryDto, CategoryDto, CategoryInsertDto> CategoryService) {
+        public CategoryController([FromKeyedServices("CategoryService")] ICommonService<CategoryDto, CategoryDto, CategoryInsertDto> CategoryService) {
 
 
             _CategoryService = CategoryService;
