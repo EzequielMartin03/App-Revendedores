@@ -32,6 +32,10 @@ builder.Services.AddScoped<IRepository<Product>,ProductRepository>();
 builder.Services.AddScoped<IRepository<Category>, CategoryRepository>();
 
 
+//JWT
+builder.Services.AddAuthorization();
+builder.Services.AddAuthentication("Bearer").AddJwtBearer();
+
 // Entity Framework
 
 builder.Services.AddDbContext<Context>(options => {
