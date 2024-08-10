@@ -1,0 +1,9 @@
+.carousel-slide {
+    position: relative;
+  }
+  
+  .carousel-slide img {
+    max-width: 100%;
+    height: auto;
+  }
+  
