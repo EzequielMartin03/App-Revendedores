@@ -77,35 +77,63 @@ namespace AppRevendedores.Services
             return null;
         }
 
-        public async Task<ProductDto> Insert(ProductInsertDto productInsertDto)
-        {
-           
-            
-                var newProduct = new Product
+       public async Task<ProductDto> Insert(ProductInsertDto productInsertDto)
+{
+            string imageUrl = null;
+
+            if (productInsertDto.Image != null)
+            {
+                var fileName = Path.GetFileName(productInsertDto.Image.FileName);
+                var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
+
+                try
                 {
-                    Name = productInsertDto.Name,
-                    Description = productInsertDto.Description,
-                    Price = productInsertDto.Price,
-                    CategoryId = productInsertDto.CategoryId
+                    // Crear el directorio si no existe
+                    var directory = Path.GetDirectoryName(filePath);
+                    if (!Directory.Exists(directory))
+                    {
+                        Directory.CreateDirectory(directory);
+                    }
 
-                };
-                await _repository.Insert(newProduct);
-                await _repository.Save();
+                    // Guardar el archivo
+                    using (var stream = new FileStream(filePath, FileMode.Create, FileAccess.Write))
+                    {
+                        await productInsertDto.Image.CopyToAsync(stream);
+                    }
 
-                var ProductDto = new ProductDto
+                    imageUrl = $"/images/{fileName}";
+                }
+                catch (Exception ex)
                 {
+                    throw new Exception("Error al guardar la imagen: " + ex.Message);
+                }
+            }
 
-                    Name= newProduct.Name,
-                    Description= newProduct.Description,
-                    Price= newProduct.Price,
-                    CategoryId = newProduct.CategoryId
+            var newProduct = new Product
+            {
+                Name = productInsertDto.Name,
+                Description = productInsertDto.Description,
+                Price = productInsertDto.Price,
+                CategoryId = productInsertDto.CategoryId,
+                Image = imageUrl
+            };
 
-                };
+            await _repository.Insert(newProduct);
+            await _repository.Save();
 
-                return ProductDto;
-            
-            
+            var productDto = new ProductDto
+            {
+                Name = newProduct.Name,
+                Description = newProduct.Description,
+                Price = newProduct.Price,
+                CategoryId = newProduct.CategoryId,
+                Image = imageUrl
+            };
+
+            return productDto;
         }
+
+
 
         public async Task<ProductUpdateDto> Update(ProductUpdateDto productUpdateDto, int id)
         {
