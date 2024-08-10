@@ -1,0 +1,31 @@
+{
+  "ContentRoots": [
+    "/src/AppRevendedores/wwwroot/"
+  ],
+  "Root": {
+    "Children": {
+      "images": {
+        "Children": {
+          "cable-de-par-trenzado-diagram.jpg": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 0,
+              "SubPath": "images/cable-de-par-trenzado-diagram.jpg"
+            },
+            "Patterns": null
+          }
+        },
+        "Asset": null,
+        "Patterns": null
+      }
+    },
+    "Asset": null,
+    "Patterns": [
+      {
+        "ContentRootIndex": 0,
+        "Pattern": "**",
+        "Depth": 0
+      }
+    ]
+  }
+}

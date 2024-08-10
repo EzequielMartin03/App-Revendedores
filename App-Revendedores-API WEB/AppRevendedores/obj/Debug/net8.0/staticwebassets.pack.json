@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\wwwroot\\images\\cable-de-par-trenzado-diagram.jpg",
+      "PackagePath": "staticwebassets\\images\\cable-de-par-trenzado-diagram.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppRevendedores.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AppRevendedores.props",
+      "PackagePath": "build\\AppRevendedores.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AppRevendedores.props",
+      "PackagePath": "buildMultiTargeting\\AppRevendedores.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AppRevendedores.props",
+      "PackagePath": "buildTransitive\\AppRevendedores.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

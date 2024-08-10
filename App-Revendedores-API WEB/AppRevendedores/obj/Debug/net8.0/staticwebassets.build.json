@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "3pCwXS/i7n1ozP6l39JEkRn8RZBXqALpvQ68cGunBVs=",
+  "Source": "AppRevendedores",
+  "BasePath": "_content/AppRevendedores",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AppRevendedores\\wwwroot",
+      "Source": "AppRevendedores",
+      "ContentRoot": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\wwwroot\\",
+      "BasePath": "_content/AppRevendedores",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\wwwroot\\images\\cable-de-par-trenzado-diagram.jpg",
+      "SourceId": "AppRevendedores",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Eze Martin\\Desktop\\App-Revendedores\\AppRevendedores\\wwwroot\\",
+      "BasePath": "_content/AppRevendedores",
+      "RelativePath": "images/cable-de-par-trenzado-diagram.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cable-de-par-trenzado-diagram.jpg"
+    }
+  ]
+}
